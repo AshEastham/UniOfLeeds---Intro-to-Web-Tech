@@ -126,6 +126,7 @@ nav ul li a {
 	padding-left: 0.4em;
 	font-size: 30px;
 	height: 2.3em;
+	margin-bottom: 1.5em; 
 }
 
 .breadcrumb-item {
@@ -204,8 +205,11 @@ nav ul li a {
 
 #content {
 	height: 50em;
-	background-color: #FFF;
-	height: auto;
+	background-color: #D7D7D7;
+}
+
+.carousel {
+
 }
 
 /* FOOTER */
