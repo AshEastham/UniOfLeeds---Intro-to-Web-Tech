@@ -154,6 +154,7 @@ nav ul li a {
 	font-size: 30px;
 	height: 2.3em;
 	margin-bottom: 1em; 
+	border-bottom: solid 5px grey;	
 }
 
 .breadcrumb-item {
@@ -272,6 +273,23 @@ nav ul li a {
 	font-size: 18px;
 }
 
+/* DJ CONTENT */
+
+.dj-image-left img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-bottom: 2em;
+	border: solid 4px #1B5299;
+}
+
+.dj-description-left {
+	float: left;
+	margin-top: 5em;
+	margin-left: 1.5em;
+}
+
 /* FLEX GRID */
 
 .flex-container {
@@ -290,25 +308,24 @@ nav ul li a {
     margin: 10px;
 }
 
+/* CONTACTS */
+
+.contact-details {
+	font-size: 28px;
+}
+
 /* FOOTER */
 
 footer {
 	background-color: #333;
 	height: auto;
 	border-top: solid 5px grey;
+	margin-top: 1em;
 }
 
 footer p {
 	font-size: 18px;
 	color: #fff;
-}
-
-.footer-high {
-	text-align: center;
-	color: #fff;
-	font-size: 24px;
-	height: auto;
-	margin-top: 0.5em;
 }
 
 img.grayscale {
@@ -323,6 +340,7 @@ img.grayscale {
 	float: left;
 	margin: 0 auto;
 	text-align: left;
+	margin-top: 0.9em;
 }
 
 .middle {
@@ -330,12 +348,22 @@ img.grayscale {
 	float: left;
 	margin: 0 auto;
 	text-align: left;
+	margin-top: 0.9em;
 }
 
 .right {
 	width: 33%;
 	float: left;
 	margin: 0 auto;
+	margin-top: 0.8em;
+}
+
+.footer-high {
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	height: auto;
+	margin-top: 0.5em;
 }
 
 .footer-low {
@@ -343,6 +371,7 @@ img.grayscale {
 	color: rgba(255,255,255,0.7);
 	text-align: center;
 	padding-bottom: 0.5em;
+	margin-top: 1.5em;
 }
 
 .link-hover:hover {
